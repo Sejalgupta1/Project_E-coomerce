@@ -1,0 +1,115 @@
+ 
+@media only screen and (max-width : 1230px) {
+.text h2 {
+	text-align: center;
+margin-right: 0;
+}
+.text span {
+	text-align: center;
+margin-right: 0;
+}
+.text p {
+	text-align: center;
+margin-right: 0;
+}
+.text a{
+	text-align: center;
+margin-right: 0;
+display: block;
+}
+.list2 li{
+	font-size: 15px;
+	list-style-type: none;
+}
+.list li{
+list-style-type: none;
+font-size: 15px;    
+color: #fff;
+margin-left: 7px;
+}
+.local span{
+font-size: 18px;
+color: #fff;
+margin-left: 45px;
+text-decoration: underline;
+}
+
+}
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+@media only screen and (min-width : 768px) and (max-width : 1002px) {
+	 
+	.bottom{
+		padding: 70px 0;
+	}
+	.list{
+		display: flex; 
+	}
+	.list2{
+		align-items: center;
+gap: 2em;
+justify-content: center;
+	}
+	.list2 li{
+		font-size:12px;
+		list-style-type: none;
+	}
+	.list li{
+	list-style-type: none;
+	font-size: 12px;    
+	color: #fff;
+	margin-left: 7px;
+	}
+	.local span{
+	font-size: 15px;
+	color: #fff;
+	margin-left: 7px;
+	text-decoration: underline;
+	}
+	#footer{
+		text-align: center;
+	}
+}
+
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 767px){
+/* Mobile Grids */
+	.container_12 [class*="grid_"]{
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	.list2{
+		align-items: center;
+gap: 2em;
+justify-content: center;
+	}
+	.list2 li{
+		font-size:12px;
+		list-style-type: none;
+	}
+	.list li{
+	list-style-type: none;
+	font-size: 12px;    
+	color: #fff;
+	margin-left: 7px;
+	}
+	.local span{
+	font-size: 15px;
+	color: #fff;
+	margin-left: 7px;
+	text-decoration: underline;
+	}
+	#footer{
+		text-align: center;
+	}
+
+}
+
